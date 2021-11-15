@@ -42,7 +42,7 @@ function Register(){
             <input required value = {username} name = "username" onChange = {(e) => setUsername(e.target.value)}   className= "form-control" name = "userName" placeholder = "enter your userName" />
             <input required value  = {email}  name = "email"  onChange  = {(e) => setEmail(e.target.value)}    className= "form-control" name = "email" placeholder = "enter your Email" />
             <input required type = "password" value = {password} name = "password" onChange = {(e) => setPassword(e.target.value)}  className= "form-control" name = "password" placeholder = "enter your password" />
-            <button type = "submit" style = {buttonstyle} className = "btn btn-success">register</button>
+            <button ss type = "submit" style = {buttonstyle} className = "btn btn-success">register</button>
             {/* <button style = {buttonstyle} className = "btn btn-success" onClick = {()=> Test()}>Test</button> */}
             
             </form>
